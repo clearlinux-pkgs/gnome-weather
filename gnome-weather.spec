@@ -4,7 +4,7 @@
 #
 Name     : gnome-weather
 Version  : 3.32.2
-Release  : 11
+Release  : 12
 URL      : https://download.gnome.org/sources/gnome-weather/3.32/gnome-weather-3.32.2.tar.xz
 Source0  : https://download.gnome.org/sources/gnome-weather/3.32/gnome-weather-3.32.2.tar.xz
 Summary  : Access current weather conditions and forecasts
@@ -69,7 +69,14 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1555877377
+export SOURCE_DATE_EPOCH=1557008098
+export AR=gcc-ar
+export RANLIB=gcc-ranlib
+export NM=gcc-nm
+export CFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
+export FCFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
+export FFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
+export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=4 "
 CFLAGS="$CFLAGS" CXXFLAGS="$CXXFLAGS" LDFLAGS="$LDFLAGS" meson --prefix /usr --buildtype=plain   builddir
 ninja -v -C builddir
 

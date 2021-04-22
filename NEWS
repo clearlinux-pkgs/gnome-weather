@@ -1,22 +1,52 @@
-3.36.1
-======
+40.0
+========
+* Major redesign with new charts (Vitaly Dyachkov, Nahuel Gomez Castro, Evan Welsh, Allan Day, Sam Hewitt, Christopher Davis)
+* Adaptive for mobile and desktop (Christopher Davis)
 
 * Bugs fixed:
-  - #95 Unknown temperature and cloud conditions when using autolocation (Michael Catanzaro)
+ - #95 Unknown temperature and cloud conditions since 3.34.1 when using auto location
 
-3.36.0
-======
-
-* Bugs fixed:
-  - #90 Always shows weather for wrong location (Michael Catanzaro)
-  - !26 Deduplicate cities in locations popover (Michael Catanzaro)
-* Bugs introduced:
-  - #95 Unknown location since 3.34.1 (sorry!)
-
-* New nightly app icon (Jakub Steiner)
-* Publish nightlies from CI (Christopher Davis)
-* Added README (Christopher Davis)
-* Many translation updates
+* Translation updates:
+ - Bangla (India)
+ - Basque
+ - Bokmål, Norwegian
+ - Catalan
+ - Chinese (China)
+ - Chinese (Taiwan)
+ - Croatian
+ - Czech
+ - Danish
+ - Dutch
+ - English (United Kingdom)
+ - Esperanto
+ - Finnish
+ - French
+ - Friulian
+ - Galician
+ - German
+ - Greek, Modern (1453-)
+ - Hebrew
+ - Hungarian
+ - Indonesian
+ - Italian
+ - Japanese
+ - Kazakh
+ - Korean
+ - Latvian
+ - Lithuanian
+ - Panjabi
+ - Persian
+ - Polish
+ - Portuguese
+ - Portuguese (Brazil)
+ - Romanian
+ - Serbian
+ - Slovak
+ - Slovenian
+ - Spanish
+ - Swedish
+ - Turkish
+ - Ukrainian
 
 3.34.0
 ======
@@ -442,7 +472,7 @@
 * Enabled OpenWeatherMap backend
 * Updated for libgweather API changes
 * Translation updates
- 
+
 3.9.3
 =====
 * Fixed icon handling in GWeatherLocationEntry due

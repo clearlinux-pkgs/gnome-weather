@@ -1,4 +1,4 @@
-3.36.1
+40.0
 appstream-glib
 geoclue-dev
 gjs-dev
@@ -6,3 +6,4 @@ libgweather-dev
 pkgconfig(geoclue-2.0)
 pkgconfig(gjs-1.0)
 pkgconfig(gweather-3.0)
+pkgconfig(libhandy-1)

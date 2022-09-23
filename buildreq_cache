@@ -1,8 +1,8 @@
-42.0
+43.0
 appstream-glib
 geoclue-dev
 gjs-dev
-pkgconfig(geoclue-2.0)
 pkgconfig(gjs-1.0)
 pkgconfig(gweather4)
 pkgconfig(libadwaita-1)
+pkgconfig(libgeoclue-2.0)

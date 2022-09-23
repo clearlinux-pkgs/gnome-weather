@@ -1,3 +1,109 @@
+43.0
+=======
+GNOME Weather 43.0 brings many improvements:
+
+* The thermometer widget in the daily view has received a round of polish,
+  with temperature labels sticking to the thermometer as it scales.
+* The temperature choice in the primary menu is now at the top level.
+* Views now transitions smoothly with a crossfade.
+* We use a new adaptive About window.
+
+It also comes with up-to-date translations for the following locales:
+
+ - Abkhazian
+ - Basque
+ - Bulgarian
+ - Catalan
+ - Chinese (China)
+ - Chinese (Taiwan)
+ - Croatian
+ - Czech
+ - Danish
+ - Dutch
+ - Finnish
+ - French
+ - Friulian
+ - Galician
+ - Georgian
+ - German
+ - Greek, Modern (1453-)
+ - Hebrew
+ - Hungarian
+ - Icelandic
+ - Indonesian
+ - Italian
+ - Kazakh
+ - Korean
+ - Latvian
+ - Lithuanian
+ - Nepali
+ - Occitan (post 1500)
+ - Persian
+ - Polish
+ - Portuguese
+ - Portuguese (Brazil)
+ - Russian
+ - Serbian
+ - Slovenian
+ - Spanish
+ - Swedish
+ - Turkish
+ - Ukrainian
+
+43.rc
+=======
+GNOME Weather 43.rc comes with up-to-date translations for the
+following locales:
+
+ - Catalan
+ - Chinese (Taiwan)
+ - Croatian
+ - Czech
+ - Danish
+ - Finnish
+ - Galician
+ - Hungarian
+ - Latvian
+ - Polish
+ - Portuguese (Brazil)
+ - Slovenian
+ - Swedish
+ml
+43.beta
+=======
+GNOME Weather 43.beta comes with up-to-date translations for the
+following locales:
+
+ - Abkhazian
+ - Basque
+ - Georgian
+ - Serbian
+ - Turkish
+
+43.alpha
+=======
+GNOME Weather 43.alpha polishes the thermometer widget in the daily view,
+refreshes the primary menu, uses smooth transitions between views, and
+makes use of a new adaptive About window. It also comes with up-to-date
+translations for the following locales:
+
+ - Chinese (China)
+ - Dutch
+ - Friulian
+ - Georgian
+ - Hebrew
+ - Icelandic
+ - Indonesian
+ - Italian
+ - Latvian
+ - Lithuanian
+ - Occitan (post 1500)
+ - Persian
+ - Portuguese
+ - Russian
+ - Spanish
+ - Ukrainian
+
 42.0
 =======
 GNOME Weather 42 comes with a port to GTK4, a new thermometer widget,
